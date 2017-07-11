@@ -1,0 +1,182 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body,
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+.top {
+	width: 208px;
+	height: 211px;
+}
+
+.bottom {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	z-index: -1;
+	bottom: 0;
+}
+
+.bg {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 78%;
+}
+
+.by {
+	width: 94px;
+	height: 186px;
+	position: absolute;
+	left: 18%;
+	top: 18%
+}
+
+.ji {
+	width: 118px;
+	height: 112px;
+	position: absolute;
+	left: 45%;
+	top: 40%;
+}
+
+.gr {
+	width: 134px;
+	height: 45px;
+	position: absolute;
+	left: 50%;
+	top: 28%;
+}
+
+.qc {
+	width: 70%;
+	height: 58px;
+	position: absolute;
+	left: 3%;
+	top: 20%;
+}
+
+.ts {
+	width: 50%;
+	height: 40px;
+	position: absolute;
+	left: 36%;
+	top: 28%;
+}
+
+.fd {
+	width: 70%;
+	height: 58px;
+	position: absolute;
+	left: 24%;
+	top: 23%;
+}
+
+.tg {
+	width: 50%;
+	height: 40px;
+	position: absolute;
+	left: 10%;
+	top: 17%;
+}
+
+p {
+	width: 100%;
+	position: absolute;
+	text-align: center;
+}
+
+.yj {
+	width: 70%;
+	height: 58px;
+	position: absolute;
+	left: 6%;
+	top: 23%;
+}
+
+.mw {
+	width: 50%;
+	height: 40px;
+	position: absolute;
+	left: 44%;
+	top: 21%;
+}
+
+.zqc {
+	position: absolute;
+	left: 32%;
+	top: 15%;
+}
+
+.young {
+	position: absolute;
+	left: 32%;
+	top: 25%;
+}
+
+#bgmusic {
+	position: fixed;
+	top: 3%;
+	z-index: 999;
+	right: 5%;
+}
+
+#ioc {
+	width: 44px;
+	height: 44px;
+	background: url(../imgs/music.png) no-repeat;
+	position: relative;
+	z-index: -1;
+}
+
+@keyframes mymove {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(3600deg);
+	}
+}
+
+@-webkit-keyframes mymove1 {
+	0% {
+		bottom: 0;
+		opacity: 0;
+	}
+	40% {
+		bottom: 2%;
+		opacity: 0.5;
+	}
+	80% {
+		bottom: 6%;
+		opacity: 0.8;
+	}
+	100% {
+		bottom: 10%;
+		opacity: 1;
+	}
+}
+
+#ioc {
+	animation: mymove 40s linear infinite;
+}
+
+#xs {
+	background: url(../imgs/web-swipe-top.png) no-repeat center;
+	width: 100%;
+	height: 18px;
+	position: fixed;
+	bottom: 0;
+	z-index: 222;
+	animation: mymove1 3s linear infinite;
+}
